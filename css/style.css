@@ -54,7 +54,7 @@ ul, menu{
 }
 
 .auth-item:first-child{
-    border: none;
+    border: 2px solid transparent;
 }
 
 .auth-link{
@@ -101,7 +101,7 @@ p.banner-text{
 }
 
 /* **************PARTNERS-SECTION************* */
-.parnters-section{
+.partners-section{
     font-family: var(--mont);
     color: #333;
     padding: 68px 24px 57px;
@@ -164,6 +164,7 @@ figure{
 .partner-name{
     margin-bottom: 14px;
     font-weight: 700;
+    color: #333;
 }
 
 .partner-description{

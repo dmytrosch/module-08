@@ -1,0 +1,149 @@
+/* ***********BOTH*********** */
+
+@media (min-width: 768px){
+    .container{
+        min-width: 672px;
+        max-width: 940px;
+        margin: 0 auto;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .banner{
+        padding: 0;
+        padding-top: 38px;
+        padding-bottom: 234px;
+        background-image: url("../img/banner-bgr.jpg");
+        /* height: 700px; */
+    }
+    .main-header{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        height: 36px;
+        margin: 0 auto 146px;  
+    }
+      
+    .auth-menu{
+        margin: 0;
+    }
+
+    .banner-motto{
+        margin-bottom: 26px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p.banner-text{
+        margin-bottom: 34px;
+        padding: 0;
+    }
+
+    .partners-section{
+        min-width: 532px;
+        max-width: 940px;
+        padding: 0;
+        padding-top: 70px;
+        margin: 0 auto;
+    }
+
+    .section-motto{
+        font-size: 1.5714rem;
+        margin-bottom: 30px;
+    }
+
+    .partners-list{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-bottom: 38px;
+    }
+
+    .partner-item{
+        margin: 0;
+        padding: 0;
+        width: 236px;
+    }
+}
+
+/* **********TABLET ONLY************ */
+
+@media (min-width: 768px) and (max-width: 939px){
+    .banner-motto{
+        font-size: 3.6429rem;
+        width: 534px;
+    }
+
+    p.banner-text{
+        font-size: 1.6429rem;
+    }
+
+    .partners-section{
+        padding-bottom: 40px;
+    }
+
+    .partners-list{
+        width: 500px;
+        min-height: 500px;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+}
+
+/* ************DESKTOP********* */
+
+@media (min-width: 940px){
+    .auth-item{
+        border: 2px solid transparent;
+        transition: border 0.2s ease-in;
+    }
+
+    .auth-item:hover{
+        border: 2px solid #fff;
+        border-radius: 18px;
+    }
+
+    .banner-motto{
+        font-size: 3.7143rem;
+        width: 504px;
+    }
+
+    p.banner-text{
+        font-size: 1.7143rem;
+    }
+
+    .finding-partner-link{
+        border: 2px solid transparent;
+        transition: all 0.3s ease-in;
+    }
+
+    .finding-partner-link:hover{
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 18px;
+        background-color: transparent;
+    }
+
+    .partners-section{
+        padding-bottom: 73px;
+    }
+
+    .partners-list{
+        flex-wrap: nowrap;
+    }
+
+    .partner-item{
+        width: 220px;.
+    }
+
+    .other-partner-link{
+        transition: all 0.3s ease-in;
+    }
+
+    .other-partner-link:hover{
+        color: #fff;
+        background-color: #ff4e50;
+        border-radius: 18px;
+    }
+}
