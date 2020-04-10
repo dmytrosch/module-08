@@ -1,3 +1,193 @@
+:root{
+    --roboto: 'Roboto', sans-serif;
+    --mont: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+    text-align: center;
+}
+
+main{
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+ul, menu{
+    list-style-type: none;
+}
+
+/* *******BANNER********* */
+.banner{
+    padding: 20px 15px 138px;
+    background-image: url(../img/banner-bgr-mobile.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: var(--mont);
+    color: #fff; 
+    font-weight: 700;
+}
+
+.auth-menu{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 118px;
+}
+
+.auth-item{
+    border: 2px solid #fff;
+    border-radius: 18px;
+}
+
+.auth-item:first-child{
+    border: none;
+}
+
+.auth-link{
+    color: #fff;
+    padding: 8px 16px;
+}
+
+.main-page-link{
+    color: #fff;
+    font-size: 1.4286rem;
+    letter-spacing: calc(50 * 1.4286rem / 1000);
+}
+
+.main-header{
+    margin-bottom: 34px;
+}
+
+.site-logo{
+    margin: 0;
+    padding: 0;
+}
+
+.banner-motto{
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+p.banner-text{
+    font-family: var(--roboto);
+    font-weight: 300;
+    font-size: 1.2857rem;
+    padding: 0 37px;
+    margin-bottom: 15px;
+}
+
+.finding-partner-link{
+    padding: 12px 48px;
+    color: #fff;
+    background-color: #ff4e50;
+    border-radius: 18px;
+    max-width: 290px;
+    margin: 0 auto;
+}
+
+/* **************PARTNERS-SECTION************* */
+.parnters-section{
+    font-family: var(--mont);
+    color: #333;
+    padding: 68px 24px 57px;
+}
+
+.section-motto{
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+figure{
+    position: relative;
+}
+
+.partner-photo-wrapper{
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 121px;
+}
+
+.partner-photo-wrapper::after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: -4px;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 17px 17px;
+}
+
+.tv-icon::after{
+    background-color: #ff4e50;
+    background-image: url("../img/icons/tv-icon.svg");
+} 
+
+.tube-icon::after{
+    background-color: #ffa507;
+    background-image: url("../img/icons/tube-icon.svg");
+}
+
+.coffee-icon::after{
+    background-color: #1cd7ad;
+    background-image: url("../img/icons/coffee-icon.svg");
+}
+
+.telegram-icon::after{
+    background-color: #4e73db;
+    background-image: url("../img/icons/telegram-icon.svg");
+}
+  
+
+.partner-name{
+    margin-bottom: 14px;
+    font-weight: 700;
+}
+
+.partner-description{
+    font-family: var(--roboto);
+    font-weight: 300;
+    color: #666666;
+}
+
+.partner-item{
+    margin-bottom: 27px;
+    padding: 0 25px;
+}
+
+.other-partner-link{
+    padding: 12px 48px;
+    color: #ff4e50;
+    border: 2px solid #ff4e50;
+    border-radius: 18px;
+    font-family: var(--mont);
+    font-weight: 700;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
 /* *****************FONTS****************** */
 /* montserrat-regular - latin */
 @font-face {
