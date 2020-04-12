@@ -14,7 +14,7 @@ html{
     text-align: center;
 }
 
-main{
+main, header{
     min-width: 320px;
     margin: 0 auto;
 }
@@ -24,7 +24,7 @@ a{
     display: block;
 }
 
-ul, menu{
+ul{
     list-style-type: none;
 }
 
